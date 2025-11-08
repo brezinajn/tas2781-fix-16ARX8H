@@ -1,6 +1,6 @@
-# tas2781-fix-16IRX8H
-A script to fix the audio problems on Legion Pro 7 16IRX8H on Linux.
-This is a combination of solutions from [this thread](https://forums.lenovo.com/t5/Ubuntu/Ubuntu-and-legion-pro-7-16IRX8H-audio-issues/m-p/5210709), with an automatic installer to eliminate manual steps.
+# tas2781-fix-16ARX8H
+A script to fix the audio problems on Legion Pro 7 16ARX8H on Linux.
+This is a combination of solutions from [this thread](https://forums.lenovo.com/t5/Ubuntu/Ubuntu-and-legion-pro-7-16ARX8H-audio-issues/m-p/5210709), with an automatic installer to eliminate manual steps.
 
 ## Features
 
@@ -21,7 +21,7 @@ Tested on Arch Linux, kernel 6.11, KDE Plasma 6.
 To install, simply run the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/DanielWeiner/tas2781-fix-16IRX8H/refs/heads/main/install.sh | bash -s --
+curl -s https://raw.githubusercontent.com/DanielWeiner/tas2781-fix-16ARX8H/refs/heads/main/install.sh | bash -s --
 ```
 
 Then make sure to **reboot your system.**
