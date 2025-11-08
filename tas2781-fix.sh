@@ -251,7 +251,7 @@ execute_fix() {
     i2cset -f -y $i2c_bus $value 0x5c 0xd9 # CLK_PWRUD=1, DIS_CLK_HALT=0, CLK_HALT_TIMER=011, IRQZ_CLR=0, IRQZ_CFG=3
     i2cset -f -y $i2c_bus $value 0x60 0x10 # SBCLK_FS_RATIO=2
     
-    if [ $balance_index -eq 0 ]; then # Left/right channel configuration
+    if [ $balance_index -eq 1 ]; then # Left/right channel configuration
         i2cset -f -y $i2c_bus $value 0x0a 0x1e
     else
         i2cset -f -y $i2c_bus $value 0x0a 0x2e
