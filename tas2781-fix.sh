@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-# This script is used to fix the audio problems on Legion Pro 7 16IRX8H.
+# This script is used to fix the audio problems on Legion Pro 7 16ARX8H.
 # This is a combination of solutions from https://forums.lenovo.com/t5/Ubuntu/Ubuntu-and-legion-pro-7-16IRX8H-audio-issues/m-p/5210709
 
 SERVICE_NAME="tas2781-fix.service"
